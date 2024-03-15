@@ -18,13 +18,6 @@ replacements = [
     ('nine', '9')]
 
 
-
-
-
-
-
-
-
 for element in  data:
     [element := element.replace(a, b) for a, b in replacements]
     print(f"Processed line : {element}") 
